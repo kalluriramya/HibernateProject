@@ -12,5 +12,11 @@
 <property name="show_sql">true</property>
 <property name="hibernate.hbm2ddl.auto">update</property>
 <mapping class="com.training.java.ContactPOJO" /> 
+<mapping class="com.training.java.WriterPOJO" /> 
+<mapping class="com.training.java.StoryPOJO" /> 
+<mapping class="com.training.java.EventPOJO" /> 
+<mapping class="com.training.java.SpeakerPOJO" /> 
+<mapping class="com.training.java.PublisherPOJO" /> 
+<mapping class="com.training.java.BookPOJO" /> 
 </session-factory>
 </hibernate-configuration>
